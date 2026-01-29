@@ -11,5 +11,6 @@ btn1:
 btn2:
   text: Hugo Docs
   url: https://gohugo.io/
+
 ---
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ullam corrupti sed nam aut officia eius veritatis ipsum corporis! Cupiditate aut ducimus dolorem mollitia nobis sed perspiciatis delectus maxime molestiae.
