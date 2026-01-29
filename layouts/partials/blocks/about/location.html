@@ -1,0 +1,31 @@
+<style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 50%; //aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% |important;
+        height: 100% |important;
+    }
+</style>
+
+<div class="container py-3 bg-secondary-subtle">
+    <div class="row">
+        <div class="col">
+            <h2>{{ .Title }}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            {{ .Content }}
+        </div>    
+        <div class="col-md-6 google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d480935.64959394536!2d-99.01039149999998!3d19.6567857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1769650870546!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
